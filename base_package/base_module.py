@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 basic module to use as an example.
 """
@@ -8,13 +10,10 @@ def add_two_numbers(a, b):
     """
 
     Args:
-        a: int
-            first number to add
-        b: int
-            second number to add
+        a: int, first number to add
+        b: int, second number to add
     Returns:
-        c: int
-            addition between a and b
+        c: int, addition between a and b
     """
 
     c = a + b
@@ -26,11 +25,10 @@ def main():
     Main program.
 
     """
-
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--firstnum", # use full name (optional) with double-dash
-        required=True, # specify required arguments
+        "--firstnum",
+        required=True,
         type=int,
         default=0
     )
