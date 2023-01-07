@@ -1,2 +1,2 @@
 # example_pyscript2cwl
-Template for writing a python script and wrapping it with CWL
+Simple example demonstrating how python commandline scripts or packages can be worked into CWL.
